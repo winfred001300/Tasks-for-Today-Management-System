@@ -1,0 +1,38 @@
+# Environment settings and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Writable runtime files
+/writable/*
+!/writable/.gitignore
+
+# Temporary and operating system files
+.DS_Store
+Thumbs.db
+
+# Local test files
+/public/gd-check.php
+/public/gd-check.php.txt
+/app/Views/test.php
+
+# Unrelated POS database export
+/public/pos_db.sql
+
+# Temporary test files
+/.htaccess.txt
+/app/Views/test.php
+/public/gd-check.php
+/public/gd-check.php.txt
+
+# Exclude the unrelated POS database export
+/pos_db.sql
+
+# Exclude temporary test files
+/.htaccess.txt
+/app/Views/test.php
+/public/gd-check.php
+/public/gd-check.php.txt
